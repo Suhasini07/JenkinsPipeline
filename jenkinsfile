@@ -5,15 +5,15 @@ stages
 {
 stage('Build')
 {
-echo "Building my project...."
+steps {"Building my project...."}
 }
 stage("Test")
 {
-echo "Testing my project......."
+steps {"Testing my project......."}
 }
 stage("Deploy")
 {
-echo "Deployong my project....."
+steps {"Deployong my project....."}
 }
 }
 }
